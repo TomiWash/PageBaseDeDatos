@@ -1,36 +1,9 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Proyecto Final base de datos Salvatierra
 
-## Getting Started
+Link hacia la pagina: https://page-base-de-datos.vercel.app/
 
-First, run the development server:
+CREATE : El CRUD en esta pagina funciona la agregar al carrito un producto, si se agregan varios productos se muestra el precio total
+READ : Se muestren en la parte principal de la pagina en un recuadro con la informacion de cada producto.
+UPDATE : El stock se actualiza mediante inicio de sesion de empleados/trabajdores, un simple usuario no podria ver esa opcion pero un empleado veria una personita arriba a la derecha el cual funciona para iniciar sesion y poder controlar el stock de cada producto de la pagina.
+DELETE : El producto se eliminaria en la parte superior derecha presionando el carrito y los productos que vos agregaste aparecera una "cruz" del lado derecho del producto el cual si lo presionamos se quitara el producto
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
